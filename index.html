@@ -3,11 +3,14 @@
 <head>
 	<title>My Personal Website</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/jquery.js"></script>
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/mystyles.css" rel="stylesheet" media="screen">
 </head>
+
+
+
 <body>
-
-
 	<!-- Navbar -->
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
@@ -25,6 +28,7 @@
 					<li class="active"><a href="#">Home</a></li>
 					<li><a href="about.html">About Me</a></li>
 					<li><a href="projects.html">Projects</a></li>
+					<li><a href="projects.html">Contact</a></li>
 				</ul>
 
 			</div>
@@ -32,13 +36,212 @@
 	</div>
 	<!-- End navbar -->
 
-<div class="jumbotron">
-    <h1>My name is Patrick</h1>
+	<div class="bg"></div>
+	<div class="jumbotron">
+		<h1>Hi! I'm Patrick</h1>
+		<p> blah blah blah stuff about me
+	</div>
+
+<div class="page-header">
+		<h1>Who am I? <small>About Me</small></h1>
+	</div>
+
+	<div class="well well-lg">
+		Overview
+		<ul>
+			<li> 21 Years Old college student </li> 
+			<li> Grew up in Boston, now I'm in Iowa </li>
+			<li> Something wacky/fun </li>
+		</ul>
+	</div>
+
+
+	<div class="well well-lg">
+		Passions
+		<ul>
+			<li> Traveling/Hiking/Exploring </li> 
+			<li> Building </li>
+		</ul>
+	</div>
+
+	<div id="organizations-header" class="page-header">
+		<h1>Organizations <small>which I have been involved with.</small></h1>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-body">
+			Grinnell AppDev
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-body">
+			Critical Ideas
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-body">
+			NNHS Science Team
+		</div>
+	</div>
+
+	<div class="page-header">
+		<h1>Applications <small>which I have worked on.</small></h1>
+	</div>
+
+	<div class="panel-group" id="accordion">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#sandb">
+						Scarlet and Black
+					</a>
+				</h4>
+			</div>
+			<div id="sandb" class="panel-collapse collapse">
+				<div class="panel-body">
+					News Reader for the Grinnell College student newpaper.
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#glicious">
+						Glicious
+					</a>
+				</h4>
+			</div>
+			<div id="glicious" class="panel-collapse collapse">
+				<div class="panel-body">
+					dhall
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#kdic">
+						KDIC Radio
+					</a>
+				</h4>
+			</div>
+			<div id="kdic" class="panel-collapse collapse">
+				<div class="panel-body">
+					Audio stream of KDIC, the Grinnell College student radio station.
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#events">
+						Grinnell Events
+					</a>
+				</h4>
+			</div>
+			<div id="events" class="panel-collapse collapse">
+				<div class="panel-body">
+					Browse Grinnell College Events!
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-danger">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#db">
+						DB
+					</a>
+				</h4>
+			</div>
+			<div id="db" class="panel-collapse collapse">
+				<div class="panel-body">
+					Grinnell College Directory App
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#friendlyearth">
+						Friendly-Earth.com
+					</a>
+				</h4>
+			</div>
+			<div id="friendlyearth" class="panel-collapse collapse">
+				<div class="panel-body">
+					Facebook friend network visualizer.
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#facetag">
+						FaceTag
+					</a>
+				</h4>
+			</div>
+			<div id="facetag" class="panel-collapse collapse">
+				<div class="panel-body">
+					how do i explain facetag?
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#voyse">
+						Voyse
+					</a>
+				</h4>
+			</div>
+			<div id="voyse" class="panel-collapse collapse">
+				<div class="panel-body">
+					App in production for andorid
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
-<div class="well well-lg">and I came to fuck shit up.</div>
+<div class="well well-lg">
+		Contact
+		<ul>
+			<li> Email </li> 
+			<li> Github </li>
+			<li> Linkedin </li>
+			<li> Resume Download </li>
+		</ul>
+	</div>
 
-	<script src="http://code.jquery.com/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+var jumboHeight = $('.jumbotron').outerHeight();
+function parallax(){
+	var scrolled = $(window).scrollTop();
+	$('.bg').css('height', (jumboHeight-scrolled) + 'px');
+}
+
+$(window).scroll(function(e){
+	parallax();
+});
+</script>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
