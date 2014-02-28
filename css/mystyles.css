@@ -1,4 +1,19 @@
-
-#sbtitle {
-	color: #428bca
+#organizations-header {
+	padding-top:30px;
 }
+
+.page-header {
+	padding-left:20px;
+}
+
+/*
+.panel-primary {
+  border-color: #428bca;
+}
+
+.panel-primary > .panel-heading {
+	color: #ffffff;
+	border-color: #428bca;
+	background-color: #428bca;
+}
+*/
