@@ -65,6 +65,7 @@
 				</ul>
 			</div>
 		</div>
+		<img src="img/sqrl.jpg" id="profilepic" class="img-circle">
 		<div id="experience">
 			<div class="page-header">
 				<h1 class="bodyheader">
@@ -72,7 +73,7 @@
 				</h1>
 			</div>
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-6">
 					<div class="panel-group" id="accordion">
 						<div class="panel panel-default">
 							<div class="panel-heading">
@@ -244,7 +245,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6">
 					<img class="img-responsive bounceInRight" id="apppic" src="img/sandb.png">
 				</div>
 			</div>
@@ -316,6 +317,10 @@
 			$(window).scroll(function(e){
 				parallax();
 			});
+
+			$("#profilepic").mouseover(function() {
+		$("#profilepic").addClass("animated flip");
+	});
 
 			function transition(image) {
 					$('#apppic').addClass('animated bounceOutRight');
