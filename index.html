@@ -87,7 +87,7 @@
 											<a href="https://github.com/GrinnellAppDev/Grinnell-Menu" target="_blank"><img class="githubpic" src="img/github.jpg"></a>
 										</div>
 										<div class="col-md-6">
-											<a href="https://play.google.com/store/apps/details?id=edu.grinnell.glicious" target="_blank"><img img="" class="githubpic" src="img/googlePlay.png"></a>
+											<a href="https://play.google.com/store/apps/details?id=edu.grinnell.glicious" target="_blank"><img img="" class="appstorepic" src="img/googlePlay.png"></a>
 										</div>
 									</div>
 								</div>
@@ -317,13 +317,14 @@
 
 				function transition(image) {
 					$('#apppic').addClass('animated bounceOutRight');
-					$('#apppic').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+
 					$('#apppic').attr("src", image);
-					$('#apppic').removeClass('animated bounceOutRight');
-					$('#apppic').addClass('animated bounceInRight');
-				});
 				}
 
+					$('#apppic').load(function(){
+						$('#apppic').removeClass('animated bounceOutRight');
+						$('#apppic').addClass('animated bounceInRight');
+					});
 				
 
 				$(function(){
