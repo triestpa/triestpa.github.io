@@ -317,14 +317,15 @@
 
 				function transition(image) {
 					$('#apppic').addClass('animated bounceOutRight');
-
-					$('#apppic').attr("src", image);
+					$('#apppic').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+						$('#apppic').attr("src", image);
+					});
 				}
 
-					$('#apppic').load(function(){
+				$('#apppic').load(function(){
 						$('#apppic').removeClass('animated bounceOutRight');
 						$('#apppic').addClass('animated bounceInRight');
-					});
+				});
 				
 
 				$(function(){
