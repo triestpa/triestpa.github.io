@@ -22,7 +22,7 @@
 							<a href="#home">Home</a>
 						</li>
 						<li>
-							<a href="#experience">Experience</a>
+							<a href="#experience-scrollspy">Experience</a>
 						</li>
 						<li>
 							<a href="#contact">Contact</a>
@@ -63,7 +63,9 @@
 					</li>
 				</ul>
 			</div>
-		</div><img src="img/sqrl.jpg" id="profilepic" class="img-circle">
+		</div>
+		<img src="img/sqrl.jpg" id="profilepic" class="img-circle">
+		<div id="experience-scrollspy"></div>
 		<div id="experience">
 			<div class="page-header">
 				<h1 class="bodyheader">
@@ -311,9 +313,11 @@
 				parallax();
 				});
 
-				$("#profilepic").mouseover(function() {
-				$("#profilepic").addClass("animated flip");
-				});
+				$("#profilepic").hover(function(){
+						$("#profilepic").addClass("animated pulse");
+					},function(){
+						$("#profilepic").removeClass("animated pulse");
+					});
 
 				function transition(image) {
 					$('#apppic').addClass('animated bounceOutRight');
@@ -326,8 +330,9 @@
 						$('#apppic').removeClass('animated bounceOutRight');
 						$('#apppic').addClass('animated bounceInRight');
 				});
-				
 
+		
+				
 				$(function(){
 					$('#sandb').on('shown.bs.collapse', function () {
 						transition("img/sandb.png");

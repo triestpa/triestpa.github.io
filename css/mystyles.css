@@ -91,8 +91,7 @@ background: -moz-linear-gradient(green, black);
 	margin-left: 50px;
 	margin-right: 50px;
 	background-color: lightgrey;
-		border-color: #C8C8C8;
-
+	border-color: #C8C8C8;
 	opacity:0.9; 
 	color: #751F0F;
 }
@@ -115,6 +114,14 @@ background: -moz-linear-gradient(green, black);
 	margin-right: 100px;
 	float:right;
 	border:2px solid #751F0F;
+}
+
+#experience-scrollspy{
+	margin-top: -50px;
+}
+
+#experience{
+	margin-top: 80px;
 }
 
 .panel {
