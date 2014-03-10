@@ -1,47 +1,15 @@
-#organizations-header {
-	padding-top:30px;
-}
-
 .page-header {
 	padding-left:20px;
 }
 
-
-.panel-default {
-  border-color: #C8C8C8;
-}
-
-.panel-default > .panel-heading {
-	/* color: #9894AE; */
-	  opacity:0.9; 
-/*
-	color: #772314;
-	background-color: #772314 ;
-	*/
-
-	background-color: lightgrey;
-}
-
-
-.panel-title > a {
-	/* color: #404040; */
-	color: #751F0F;
-	font-weight:bold;
-}
-
-.panel-body {
-	background-color: lightgrey;
-}
-
-.panel {
-	margin-left: 20px;
-	margin-right: 20px;
+.bodyheader {
+	color: black;
+	font-size: 50px;
 }
 
 body
 {
-	
-		background: #C8C8C8;
+	background: #C8C8C8;
 		/*
 background: -webkit-linear-gradient(green, black); 
 background: -o-linear-gradient(green, black); 
@@ -86,25 +54,36 @@ background: -moz-linear-gradient(green, black);
 	background-color:rgba(120,120,120,0.4);
 }
 
-#contact {
-	border-color: black;
-	margin-left: 50px;
-	margin-right: 50px;
+.panel-default {
+  border-color: #C8C8C8;
+}
+
+.panel-default > .panel-heading {
+	/* color: #9894AE; */
+	  opacity:0.9; 
+/*
+	color: #772314;
+	background-color: #772314 ;
+	*/
+
 	background-color: lightgrey;
-	border-color: #C8C8C8;
-	opacity:0.9; 
+}
+
+
+.panel-title > a {
+	/* color: #404040; */
 	color: #751F0F;
+	font-weight:bold;
+	font-size: 120%;
 }
 
-.bodyheader {
-	color: black;
+.panel-body {
+	background-color: lightgrey;
 }
 
-#organizations {
-}
-
-.page-header > .bodyheader {
-	color: #404040
+.panel {
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 #profilepic {
@@ -122,11 +101,32 @@ background: -moz-linear-gradient(green, black);
 
 #experience{
 	margin-top: 80px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+#organizations {
+}
+
+#organizations-header {
+	padding-top:30px;
+	font-size: 400%;
+	font-style:italic;
+}
+
+.org-title {
+	font-size: 35px;
+	text-align:center;
 }
 
 .panel {
 	width: 350px;
 }
+
+.org-panel {
+	width: 450px;
+}
+
 
 #apppic {
 	margin-top: -40px;
@@ -149,4 +149,14 @@ background: -moz-linear-gradient(green, black);
 	margin-left: -30px;
 	width: 150px;
 	height: 70px;
+}
+
+#contact {
+	border-color: black;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: lightgrey;
+	border-color: #C8C8C8;
+	opacity:0.9; 
+	color: #751F0F;
 }
