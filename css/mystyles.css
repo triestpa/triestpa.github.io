@@ -159,5 +159,10 @@ body
 
 #contact-header {
 	margin-left: 50px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+#footer {
+	margin: 20px;
+	font-family: 'Alegreya Sans SC', sans-serif;
 }
