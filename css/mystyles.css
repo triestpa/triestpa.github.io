@@ -7,6 +7,10 @@ body
 	background: #C8C8C8;
 }
 
+#nav {
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
 .bg {
 	background: url('../img/background.png') no-repeat center center;
 	position: fixed;
@@ -110,14 +114,7 @@ body
 
 .org-panel {
 	width: 450px;
-}
-
-#appdev-panel {
-	margin-left: 10%;
-}
-
-#voyse-panel {
-	margin-right: 10%;
+	margin: 50px;
 }
 
 #apppic {
@@ -145,10 +142,22 @@ body
 
 #contact {
 	border-color: black;
-	margin-left: 50px;
-	margin-right: 50px;
+	font-size: 20px;
+	font-family: 'Alegreya Sans SC', sans-serif;
 	background-color: lightgrey;
 	border-color: #C8C8C8;
 	opacity:0.9; 
 	color: #751F0F;
+}
+
+.contact-links {
+}
+
+#contact-list {
+	margin-left: 40px;
+}
+
+#contact-header {
+	margin-left: 50px;
+	margin-bottom: 20px;
 }
