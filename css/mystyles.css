@@ -2,24 +2,9 @@
 	padding-left:20px;
 }
 
-.bodyheader {
-	color: black;
-	font-size: 50px;
-}
-
 body
 {
 	background: #C8C8C8;
-		/*
-background: -webkit-linear-gradient(green, black); 
-background: -o-linear-gradient(green, black); 
-background: -moz-linear-gradient(green, black);
-*/
-/* 3u51TsYkkw0w0 */
-/* 0041Tw0w0w0w0 */
-/* 0031Aw0w0w0w0 */
-/* background: linear-gradient(#7D71D8, #150873); */
-
 }
 
 .bg {
@@ -59,22 +44,16 @@ background: -moz-linear-gradient(green, black);
 }
 
 .panel-default > .panel-heading {
-	/* color: #9894AE; */
-	  opacity:0.9; 
-/*
-	color: #772314;
-	background-color: #772314 ;
-	*/
-
+	opacity:0.9; 
 	background-color: lightgrey;
 }
 
 
 .panel-title > a {
-	/* color: #404040; */
 	color: #751F0F;
-	font-weight:bold;
 	font-size: 120%;
+	margin-left: 35px;
+	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .panel-body {
@@ -82,8 +61,12 @@ background: -moz-linear-gradient(green, black);
 }
 
 .panel {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.panel-group {
+	margin-left: 15%;
 }
 
 #profilepic {
@@ -101,21 +84,23 @@ background: -moz-linear-gradient(green, black);
 
 #experience{
 	margin-top: 80px;
-	font-family: 'Alegreya Sans SC', sans-serif;
-
 }
 
-#organizations {
+.body-header {
+	color: black;
+	font-size: 50px;
+	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 #organizations-header {
 	padding-top:30px;
-	font-size: 400%;
-	font-style:italic;
+	font-size: 50px;
 }
 
 .org-title {
-	font-size: 35px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: #751F0F;
+	font-size: 40px;
 	text-align:center;
 }
 
@@ -127,6 +112,13 @@ background: -moz-linear-gradient(green, black);
 	width: 450px;
 }
 
+#appdev-panel {
+	margin-left: 10%;
+}
+
+#voyse-panel {
+	margin-right: 10%;
+}
 
 #apppic {
 	margin-top: -40px;
@@ -134,7 +126,7 @@ background: -moz-linear-gradient(green, black);
 	display:inline-block;
 	max-height: 600px;
 	max-width: 400px;
-	margin-left: 60px; 
+	float:center;
 }
 
 .githubpic {
