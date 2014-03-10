@@ -82,7 +82,7 @@ body
 	border:2px solid #751F0F;
 }
 
-#experience-scrollspy{
+#portfolio{
 	margin-top: -50px;
 }
 
@@ -96,8 +96,12 @@ body
 	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
+#organizations {
+	padding-bottom: 30px;
+	padding-top: 40px;
+}
+
 #organizations-header {
-	padding-top:30px;
 	font-size: 50px;
 }
 
@@ -114,7 +118,10 @@ body
 
 .org-panel {
 	width: 450px;
-	margin: 50px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #apppic {
@@ -141,6 +148,16 @@ body
 	height: 70px;
 }
 
+.panel-body > p {
+	color: #606060;
+	text-align: center;
+}
+
+.org-pic {
+	width: 300px;
+	margin: 14%;
+}
+
 #contact {
 	border-color: black;
 	font-size: 20px;
@@ -149,17 +166,20 @@ body
 	border-color: #C8C8C8;
 	opacity:0.9; 
 	color: #751F0F;
+	padding-bottom: 50px;
 }
 
 .contact-links {
 }
 
 #contact-list {
-	margin-left: 40px;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 #contact-header {
-	margin-left: 50px;
+	margin-right: 8%;
+	text-align: center;
 	margin-bottom: 30px;
 }
 
