@@ -116,9 +116,16 @@ body
 
 .appstorepic {
 	margin-top: 20px;
-	margin-left: -30px;
+	margin-left: -20px;
 	max-width: 150px;
 	max-height: 70px;
+}
+
+.visitSiteButton {
+	margin-top: 20px;
+	margin-left: -15px;
+	width: 130px;
+	height: 50px;
 }
 
 #organizations {
