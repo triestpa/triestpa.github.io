@@ -122,7 +122,8 @@ body
 }
 
 #organizations {
-	padding-bottom: 30px;
+	margin-top: 40px;
+	margin-bottom: 100px;
 	padding-top: 40px;
 }
 
@@ -138,11 +139,11 @@ body
 }
 
 .org-panel {
-	width: 450px;
+	height: 480px;
+	width: 420px;
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-top: 10px;
-	margin-bottom: 10px;
 }
 
 .panel-body > p {
@@ -152,7 +153,8 @@ body
 
 .org-pic {
 	width: 300px;
-	margin: 14%;
+	height: 300px;
+	margin: 12%;
 }
 
 #contact {
