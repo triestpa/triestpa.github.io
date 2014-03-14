@@ -55,6 +55,7 @@ body
 	width:600px;
 	font-size: 23px;
 	background-color:rgba(120,120,120,0.4);
+	color: white;
 }
 
 #transbox > ul > li > p{
@@ -63,7 +64,7 @@ body
 }
 
 .highlight {
-	color: red;
+	color: #FF4540;
 	font-weight: 400;
 }
 
@@ -124,7 +125,7 @@ body
 }
 
 #apppic {
-	margin-top: -40px;
+	margin-top: -25px;
 	margin-bottom: -50px;
 	margin-left: 90px;
 	display:inline-block;
