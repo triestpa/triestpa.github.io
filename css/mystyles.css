@@ -53,12 +53,18 @@ body
 	padding-right: 10px;
 	margin-top: 20px;
 	width:600px;
+	font-size: 23px;
 	background-color:rgba(120,120,120,0.4);
 }
 
-#transbox > p {
-	font-size: 40px;
+#transbox > ul > li > p{
+	font-size: 23px;
 	font-weight: 300;
+}
+
+.highlight {
+	color: red;
+	font-weight: 400;
 }
 
 .panel-default {
@@ -135,6 +141,10 @@ body
 	height: 50px;
 }
 
+.sourceCodeButton > a {
+		color: white;
+}
+
 .githubpic {
 	margin-top: 20px;
 	margin-left: 10px;
@@ -154,6 +164,10 @@ body
 	margin-left: -15px;
 	width: 130px;
 	height: 50px;
+}
+
+.visitSiteButton > a {
+	color: white;
 }
 
 #organizations {
