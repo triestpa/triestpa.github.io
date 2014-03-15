@@ -48,6 +48,10 @@
 
 				function transition(image) {
 					$('#apppic').addClass('animated bounceOutRight');
+					if ($('#apppic').attr("src") == image){
+						$('#apppic').removeClass('animated bounceOutRight');
+						$('#apppic').addClass('animated bounceInRight');
+					}
 					$('#apppic').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 						$('#apppic').attr("src", image);
 					});
