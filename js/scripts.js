@@ -85,4 +85,13 @@
 					$('#friendlyearth').on('shown.bs.collapse', function () {
 						transition("img/friendlyearth.png");
 					});
+
+					$('#voyse').on('shown.bs.collapse', function () {
+						transition("img/voyse.png");
+					});
+
+					$('#facetag').on('shown.bs.collapse', function () {
+						transition("img/facetag.png");
+					});
+
 				});
