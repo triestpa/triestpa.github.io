@@ -52,7 +52,7 @@ body
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-top: 20px;
-	width:600px;
+	width:50%;
 	font-size: 23px;
 	background-color:rgba(120,120,120,0.4);
 	color: white;
@@ -65,12 +65,8 @@ body
 
 .highlight {
 	color: #FF4540;
-	font-weight: 400;
-	text-shadow:
-    -1px -1px 0 black,  
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
+	font-weight: 300;
+	font-size: 25px;
 }
 
 .panel-default {
@@ -111,6 +107,7 @@ body
 	height: 300px;
 	margin-top: -600px;
 	margin-right: 10%;
+	margin-left: 10%;
 	float:right;
 	border:2px solid #751F0F;
 }
