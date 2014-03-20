@@ -345,8 +345,24 @@
 				Designed by Patrick Triest.&nbsp; &nbsp;Built with the &nbsp; <a href="http://getbootstrap.com/" target="_blank">Bootstrap framework</a> , <a href="http://daneden.github.io/animate.css/" target="_blank">Animate.css</a> , and the &nbsp; <a href="https://www.google.com/fonts/specimen/Alegreya+Sans" target="_blank">Alegreya Sans font.</a>
 			</p>
 		</div>
+		<div class="modal fade bs-example-modal-sm" id="redirectmodal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+		  				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		  				<h4 class="modal-title" id="AboutModal">Redirect</h4>
+		  			</div>
+		  			<div class="modal-body">
+		  				Due to sub-par loading speeds I have switched to a new hosting server. A faster version of this website can be found at <a href="http://p-triest.com">p-triest.com</a> while I am waiting for this domain to transfer to the new host.
+		  			</div>	
+				</div>
+			</div>
+		</div>
 		<script src="js/jquery.js" type="text/javascript"></script>
 		<script src="js/bootstrap.min.js" type="text/javascript"></script>
 		<script src="js/scripts.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$('#redirectmodal').modal('show');
+		</script>
 	</body>
 </html>
