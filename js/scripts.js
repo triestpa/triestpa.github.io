@@ -8,7 +8,7 @@
 
 				// animate
 				$('html, body').animate({
-				scrollTop: $(this.hash).offset().top
+					scrollTop: $(this.hash).offset().top
 				}, 300, function(){
 
 				   // when done, add hash to url
@@ -16,36 +16,40 @@
 				   window.location.hash = hash;
 				});
 
-				});
+			});
 
 				var jumboHeight = $('.jumbotron').outerHeight();
 				function parallax(){
-				var scrolled = $(window).scrollTop();
-				$('.bg').css('height', (jumboHeight-scrolled) + 'px');
+					var scrolled = $(window).scrollTop();
+					$('.bg').css('height', (jumboHeight-scrolled) + 'px');
 				}
 
 				$(window).scroll(function(e){
-				parallax();
+					parallax();
 				});
 
 				$("#profilepic").hover(function(){
-						$("#profilepic").addClass("animated rubberBand");
-					},function(){
-						$("#profilepic").removeClass("animated rubberBand");
-					});
+					$("#profilepic").addClass("animated rubberBand");
+				},function(){
+					$("#profilepic").removeClass("animated rubberBand");
+				});
 
 				$("#voyse-pic").hover(function(){
-						$("#voyse-pic").addClass("animated pulse");
-					},function(){
-						$("#voyse-pic").removeClass("animated pulse");
-					});
+					$("#voyse-pic").addClass("animated pulse");
+				},function(){
+					$("#voyse-pic").removeClass("animated pulse");
+				});
 
 				$("#appdev-pic").hover(function(){
-						$("#appdev-pic").addClass("animated pulse");
-					},function(){
-						$("#appdev-pic").removeClass("animated pulse");
-					});
+					$("#appdev-pic").addClass("animated pulse");
+				},function(){
+					$("#appdev-pic").removeClass("animated pulse");
+				});
 
+				$("#email").mouseover(function() {
+					$(this).text('patrick.triest@gmail.com');
+				});
+				
 				function transition(image) {
 					$('#apppic').addClass('animated bounceOutRight');
 					if ($('#apppic').attr("src") == image){
@@ -58,8 +62,8 @@
 				}
 
 				$('#apppic').load(function(){
-						$('#apppic').removeClass('animated bounceOutRight');
-						$('#apppic').addClass('animated bounceInRight');
+					$('#apppic').removeClass('animated bounceOutRight');
+					$('#apppic').addClass('animated bounceInRight');
 				});
 
 
