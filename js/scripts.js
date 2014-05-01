@@ -90,6 +90,10 @@ $(function(){
 		transition("img/friendlyearth.png");
 	});
 
+	$('#justice-served').on('shown.bs.collapse', function () {
+		transition("img/justice-served.png");
+	});
+
 	$('#voyse').on('shown.bs.collapse', function () {
 		transition("img/voyse.png");
 	});
