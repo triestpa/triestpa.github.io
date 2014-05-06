@@ -94,6 +94,10 @@ $(function(){
 		transition("img/justice-served.png");
 	});
 
+	$('#connected-world').on('shown.bs.collapse', function () {
+		transition("img/worldbank2.png");
+	});
+
 	$('#voyse').on('shown.bs.collapse', function () {
 		transition("img/voyse.png");
 	});
