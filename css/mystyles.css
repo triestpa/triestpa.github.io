@@ -30,7 +30,7 @@ body
 }
 
 #home > h1 {
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-left: 30px;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	font-size: 80px;
@@ -54,7 +54,7 @@ body
 	margin-top: 20px;
 	width:50%;
 	font-size: 23px;
-	background-color:rgba(120,120,120,0.4);
+	background-color:rgba(40,40,40,0.5);
 	color: white;
 }
 
