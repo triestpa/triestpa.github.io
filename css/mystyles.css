@@ -52,7 +52,7 @@ body
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-top: 20px;
-	width:50%;
+	width:100%;
 	font-size: 23px;
 	background-color:rgba(80,80,80,0.5);
 	color: white;
@@ -105,10 +105,10 @@ body
 #profilepic {
 	width: 300px;
 	height: 300px;
-	margin-top: -600px;
+	/*margin-top: -600px;*/
 	margin-right: 10%;
 	margin-left: 10%;
-	float:right;
+	/*float:right;*/
 	border:2px solid #751F0F;
 }
 
