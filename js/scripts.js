@@ -49,7 +49,15 @@ $("#appdev-pic").hover(function(){
 });
 
 $("#email").mouseover(function() {
-	$(this).text('patrick.triest@gmail.com');
+	$("#email").fadeOut(function() {
+  		$(this).text("patrick.triest@gmail.com").fadeIn();
+	});
+});
+
+$("#email").mouseout(function() {
+	$("#email").fadeOut(function() {
+  		$(this).text("Email").fadeIn();
+	});
 });
 
 function transition(image) {

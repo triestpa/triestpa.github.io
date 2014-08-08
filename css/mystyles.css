@@ -64,9 +64,13 @@ body
 }
 
 .highlight {
-	color: #FF4540;
+	color: #FFD700;
 	font-weight: 300;
 	font-size: 28px;
+}
+
+.gold {
+	color: #FFD700;
 }
 
 .panel-default {
