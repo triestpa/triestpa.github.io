@@ -18,6 +18,16 @@ $("#nav ul li a").on('click', function(e) {
 
 });
 
+//detect if device is small
+function detectmob() {
+   //if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+   if (screen.width <= 800) {
+     	return true;
+   } else {
+     	return false;
+   }
+}
+
 var jumboHeight = $('.jumbotron').outerHeight();
 function parallax(){
 	var scrolled = $(window).scrollTop();
@@ -25,7 +35,12 @@ function parallax(){
 }
 
 $(window).scroll(function(e){
-	parallax();
+	if (!detectmob()) {
+		parallax();
+	}
+	else {
+		console.log("too small");
+	}
 });
 
 $("#voyse-code").tooltip();
@@ -84,15 +99,15 @@ $(function(){
 
 	$('#kdic').on('shown.bs.collapse', function () {
 		transition("img/kdic.png");
-	});    
+	});
 
 	$('#db').on('shown.bs.collapse', function () {
 		transition("img/db.png");
-	});  
+	});
 
 	$('#glicious').on('shown.bs.collapse', function () {
 		transition("img/glicious.png");
-	}); 
+	});
 
 	$('#friendlyearth').on('shown.bs.collapse', function () {
 		transition("img/friendlyearth.png");

@@ -148,7 +148,7 @@ body
 }
 
 .sourceCodeButton > a {
-		color: white;
+	color: white;
 }
 
 .githubpic {
@@ -199,6 +199,7 @@ body
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .panel-body > p {
@@ -218,7 +219,7 @@ body
 	font-family: 'Alegreya Sans SC', sans-serif;
 	background-color: lightgrey;
 	border-color: #C8C8C8;
-	opacity:0.9; 
+	opacity:0.9;
 	color: #751F0F;
 	padding-bottom: 50px;
 }
@@ -242,20 +243,70 @@ body
 	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 800px) {
 	#home > h1 {
 		font-size: 50px;
 	}
 
 	#transbox {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
 	.highlight {
-		font-size: 26px;
+		font-size: 22px;
 	}
 
 	#profilepic {
 		visibility: hidden;
 	}
+
+	.bg {
+		background: url('../img/background9.jpg');
+		position: fixed;
+		width: 100%;
+		height: 800px; /*same height as jumbotron */
+		top:0;
+		left:0;
+		z-index: -1;
+	}
+
+	.org-panel {
+		height: 480px;
+		width: 420px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 10px;
+	}
+
+	.panel {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.panel-group {
+		margin-left: 0%;
+	}
+
+	.sourceCodeButton {
+		margin-left: 15px;
+		width: 150px;
+	}
+
+	.githubpic {
+		margin-left: 15px;
+	}
+
+	.appstorepic {
+		margin-left: 15px;
+	}
+
+	.visitSiteButton {
+		margin-left: 15px;
+		width: 150px;
+	}
+
+	#apppic {
+		margin-left: 20px;
+	}
+
 }
