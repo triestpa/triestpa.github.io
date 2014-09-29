@@ -21,7 +21,7 @@ $("#nav ul li a").on('click', function(e) {
 //detect if device is small
 function detectmob() {
    //if(window.innerWidth <= 800 && window.innerHeight <= 600) {
-   if (screen.width <= 800) {
+   if ($(window).width() < 800) {
      	return true;
    } else {
      	return false;
