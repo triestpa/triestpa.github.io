@@ -114,4 +114,8 @@ $(function(){
 		transition("img/facetag.png");
 	});
 
+	$('#events').on('shown.bs.collapse', function () {
+		transition("img/events.png");
+	});
+
 });
