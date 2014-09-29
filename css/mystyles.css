@@ -59,7 +59,6 @@ body
 }
 
 #transbox > ul > li > p{
-	font-size: 23px;
 	font-weight: 300;
 }
 
@@ -78,7 +77,7 @@ body
 }
 
 .panel-default > .panel-heading {
-	opacity:0.9; 
+	opacity:0.9;
 	background-color: lightgrey;
 }
 
@@ -241,4 +240,22 @@ body
 #footer {
 	margin: 20px;
 	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+@media only screen and (max-width: 760px) {
+	#home > h1 {
+		font-size: 50px;
+	}
+
+	#transbox {
+		font-size: 24px;
+	}
+
+	.highlight {
+		font-size: 26px;
+	}
+
+	#profilepic {
+		visibility: hidden;
+	}
 }
