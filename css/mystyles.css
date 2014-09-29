@@ -212,8 +212,8 @@ body
 }
 
 .org-row {
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 .panel-body > p {
@@ -287,22 +287,30 @@ body
 		z-index: -1;
 	}
 
-	.org-panel {
-		height: 480px;
-		width: 420px;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 10px;
-	}
+
 
 	.org-row {
-		margin-left: 0%;
-		margin-right: 0%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.org-row > .col-sm-6 {
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 
 	.panel {
-		margin-left: 15px;
-		margin-right: 15px;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+
+	.org-panel {
+		height: 480px;
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 10px;
 	}
 
 	.panel-group {
