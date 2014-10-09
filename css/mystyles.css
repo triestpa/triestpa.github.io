@@ -208,7 +208,7 @@ body
 	margin-left: 3%;
 	margin-right: 3%;
 	margin-top: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 130px;
 }
 
 .org-row {
@@ -257,7 +257,35 @@ body
 	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
+	.sourceCodeButton {
+		display: block;
+    	margin-left: auto;
+   		margin-right: auto;
+   		width: 150px;
+	}
+
+	.githubpic {
+		display: block;
+    	margin-left: auto;
+   		margin-right: auto;
+	}
+
+	.appstorepic {
+		display: block;
+    	margin-left: auto;
+   		margin-right: auto;
+   	}
+
+	.visitSiteButton {
+		display: block;
+    	margin-left: auto;
+   		margin-right: auto;
+   		width: 150px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
 	#home > h1 {
 		font-size: 40px;
 	}
@@ -287,8 +315,6 @@ body
 		z-index: -1;
 	}
 
-
-
 	.org-row {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -317,27 +343,10 @@ body
 		margin-left: 0%;
 	}
 
-	.sourceCodeButton {
-		margin-left: 15px;
-		width: 150px;
-	}
-
-	.githubpic {
-		margin-left: 15px;
-	}
-
-	.appstorepic {
-		margin-left: 15px;
-	}
-
-	.visitSiteButton {
-		margin-left: 15px;
-		width: 150px;
-	}
-
 	#apppic {
-		margin-left: 20px;
-	}
+		display: block;
+    	margin-left: auto;
+   		margin-right: auto;	}
 
 	.bg {
 		background: url('../img/background9.jpg') center center;
@@ -347,6 +356,12 @@ body
 		top:0;
 		left:0;
 		z-index: -1;
+	}
+
+	.org-pic {
+		display: block;
+    	margin-left: auto;
+   		margin-right: auto;
 	}
 
 	#nav-title {

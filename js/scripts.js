@@ -39,7 +39,6 @@ $(window).scroll(function(e){
 		parallax();
 	}
 	else {
-		console.log("too small");
 	}
 });
 
