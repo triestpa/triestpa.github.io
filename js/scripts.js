@@ -62,10 +62,15 @@ $("#appdev-pic").hover(function(){
 	$("#appdev-pic").removeClass("animated pulse");
 });
 
+
+var emailShowing = false;
 $("#email").mouseover(function() {
-	$("#email").fadeOut(function() {
-  		$(this).text("patrick.triest@gmail.com").fadeIn();
-	});
+	if (!emailShowing) {
+		$("#email").fadeOut(function() {
+  			$(this).text("patrick.triest@gmail.com").fadeIn();
+  			emailShowing = true;
+		});
+	}
 });
 
 /*
@@ -127,7 +132,7 @@ $(function(){
 	});
 
 	$('#facetag').on('shown.bs.collapse', function () {
-		transition("img/facetag.png");
+		transition("img/facetag2.png");
 	});
 
 	$('#events').on('shown.bs.collapse', function () {
