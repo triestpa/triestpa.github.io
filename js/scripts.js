@@ -68,11 +68,13 @@ $("#email").mouseover(function() {
 	});
 });
 
+/*
 $("#email").mouseout(function() {
 	$("#email").fadeOut(function() {
   		$(this).text("Email").fadeIn();
 	});
 });
+*/
 
 function transition(image) {
 	$('#apppic').addClass('animated bounceOutRight');
@@ -130,6 +132,10 @@ $(function(){
 
 	$('#events').on('shown.bs.collapse', function () {
 		transition("img/events.png");
+	});
+
+	$('#obaa').on('shown.bs.collapse', function () {
+		transition("img/obaa.png");
 	});
 
 });
