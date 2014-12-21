@@ -143,4 +143,12 @@ $(function(){
 		transition("img/obaa.png");
 	});
 
+	$('#blue-sky').on('shown.bs.collapse', function () {
+		transition("img/blue-sky.png");
+	});
+
+	$('#get-home').on('shown.bs.collapse', function () {
+		transition("img/getHome.png");
+	});
+
 });
