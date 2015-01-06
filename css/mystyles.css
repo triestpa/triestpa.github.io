@@ -232,7 +232,7 @@ body
 	padding-top: 40px;
 }
 .skillpic {
-	width: 300px;
+	width: 100%;
 	margin-bottom: 30px;
 	float:center;
 	display:block;
@@ -242,7 +242,7 @@ body
 
 .skill-pic-label {
 	text-align: center;
-	width: 300px;
+	width: 100%;
 	color: black;
 	margin:auto;
 }
@@ -305,7 +305,7 @@ body
 	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
 	#home > h1 {
 		font-size: 40px;
 	}
@@ -387,5 +387,15 @@ body
 	#nav-title {
 		color:white;
 	}
+}
 
+@media only screen and (max-width: 720px) {
+	.skillpic {
+		width: 50%;
+		margin-bottom: 50px;
+	}
+
+	.skill-pic-label {
+		width: 50%;
+	}
 }
