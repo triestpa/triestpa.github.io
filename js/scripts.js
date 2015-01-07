@@ -5,10 +5,22 @@ function preload(arrayOfImages) {
 }
 
 var images = [
-  	"img/skill_android_red.png",
-	"img/skill_ios_red.png",
-	"img/skill_web_red.png",
-	"img/skill_backend_red.png"
+"img/skill_android_red.png",
+"img/skill_ios_red.png",
+"img/skill_web_red.png",
+"img/skill_backend_red.png","img/sandb.png",
+"img/kdic.png",
+"img/db.png",
+"img/glicious.png",
+"img/friendlyearth.png",
+"img/justice-served.png",
+"img/worldbank2.png",
+"img/voyse.png",
+"img/facetag2.png",
+"img/events.png",
+"img/obaa.png",
+"img/blue-sky.png",
+"img/getHome.png"
 ];
 
 $( document ).ready(function() {
@@ -102,34 +114,26 @@ $("#email").mouseout(function() {
 
 $("#skill-android").hover(function() {
 		$(this).attr("src", "img/skill_android_red.png");
-		$(this).addClass("animated bounce");
-},function() {
-		$(this).removeClass("animated bounce");
+		},function() {
 		$(this).attr("src", "img/skill_android.png");
 });
 
 
 $("#skill-ios").hover(function() {
 		$(this).attr("src", "img/skill_ios_red.png");
-		$(this).addClass("animated bounce");
-},function() {
-		$(this).removeClass("animated bounce");
+		},function() {
 		$(this).attr("src", "img/skill_ios.png");
 });
 
 $("#skill-web").hover(function() {
 		$(this).attr("src", "img/skill_web_red.png");
-		$(this).addClass("animated bounce");
-},function() {
-		$(this).removeClass("animated bounce");
+		},function() {
 		$(this).attr("src", "img/skill_web.png");
 });
 
 $("#skill-backend").hover(function() {
 		$(this).attr("src", "img/skill_backend_red.png");
-		$(this).addClass("animated bounce");
-},function() {
-		$(this).removeClass("animated bounce");
+		},function() {
 		$(this).attr("src", "img/skill_backend.png");
 });
 
