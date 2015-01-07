@@ -43,6 +43,8 @@ $(window).scroll(function(e){
 });
 
 $("#voyse-code").tooltip();
+$("#obaa-code").tooltip();
+
 
 $("#profilepic").hover(function(){
 	$("#profilepic").addClass("animated rubberBand");
