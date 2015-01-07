@@ -81,6 +81,36 @@ $("#email").mouseout(function() {
 });
 */
 
+
+
+$("#skill-android").hover(function() {
+		$(this).attr("src", "img/skill_android_red.png");
+},function() {
+		$(this).attr("src", "img/skill_android.png");
+});
+
+$("#skill-ios").hover(function() {
+		$(this).attr("src", "img/skill_ios_red.png");
+},function() {
+		$(this).attr("src", "img/skill_ios.png");
+});
+
+$("#skill-web").hover(function() {
+		$(this).attr("src", "img/skill_web_red.png");
+},function() {
+		$(this).attr("src", "img/skill_web.png");
+});
+
+$("#skill-backend").hover(function() {
+		$(this).attr("src", "img/skill_backend_red.png");
+},function() {
+		$(this).attr("src", "img/skill_backend.png");
+});
+
+function colorSwap(id, image) {
+		$(id).attr("src", image);
+}
+
 function transition(image) {
 	$('#apppic').addClass('animated bounceOutRight');
 	if ($('#apppic').attr("src") == image){
