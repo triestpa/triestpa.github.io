@@ -1,3 +1,20 @@
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+    });
+}
+
+var images = [
+  	"img/skill_android_red.png",
+	"img/skill_ios_red.png",
+	"img/skill_web_red.png",
+	"img/skill_backend_red.png"
+];
+
+$( document ).ready(function() {
+	preload(images)
+})
+
 $("#nav ul li a").on('click', function(e) {
 
 	// prevent default anchor click behavior
@@ -83,35 +100,38 @@ $("#email").mouseout(function() {
 });
 */
 
-
-
 $("#skill-android").hover(function() {
 		$(this).attr("src", "img/skill_android_red.png");
+		$(this).addClass("animated bounce");
 },function() {
+		$(this).removeClass("animated bounce");
 		$(this).attr("src", "img/skill_android.png");
 });
 
+
 $("#skill-ios").hover(function() {
 		$(this).attr("src", "img/skill_ios_red.png");
+		$(this).addClass("animated bounce");
 },function() {
+		$(this).removeClass("animated bounce");
 		$(this).attr("src", "img/skill_ios.png");
 });
 
 $("#skill-web").hover(function() {
 		$(this).attr("src", "img/skill_web_red.png");
+		$(this).addClass("animated bounce");
 },function() {
+		$(this).removeClass("animated bounce");
 		$(this).attr("src", "img/skill_web.png");
 });
 
 $("#skill-backend").hover(function() {
 		$(this).attr("src", "img/skill_backend_red.png");
+		$(this).addClass("animated bounce");
 },function() {
+		$(this).removeClass("animated bounce");
 		$(this).attr("src", "img/skill_backend.png");
 });
-
-function colorSwap(id, image) {
-		$(id).attr("src", image);
-}
 
 function transition(image) {
 	$('#apppic').addClass('animated bounceOutRight');
