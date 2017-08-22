@@ -1,4 +1,4 @@
 Personal-Website
 ================
 
-A website/resume for myself using the Bootstrap Framework
+This page has been deprecated.  Please visit <a href="https://blog.patricktriest.com">blog.patricktriest.com</a> to see my new site.
